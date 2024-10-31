@@ -1,5 +1,7 @@
 html {
     background: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: var(--cor-de-fundo);
 }
 
@@ -53,7 +55,8 @@ section.conteudo button{
     border-radius: 20px;
     transition: 0.3s ease-in-out;
     color: var(--cor-de-fundo);
-    box-shadow: 1px 1px 15px  rgb(47, 47, 47);
+    box-shadow: 1px 1px 15px  rgb(176, 53, 158);
+    cursor: pointer;
 }
 
 section.conteudo button:hover{
@@ -66,6 +69,13 @@ footer{
     display: flex;
     justify-content: flex-end;
     gap: 10px;
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 footer a{
