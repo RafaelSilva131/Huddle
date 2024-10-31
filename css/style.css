@@ -55,7 +55,7 @@ section.conteudo button{
     border-radius: 20px;
     transition: 0.3s ease-in-out;
     color: var(--cor-de-fundo);
-    box-shadow: 1px 1px 15px  rgb(176, 53, 158);
+    box-shadow: 1px 1px 15px  rgb(196, 91, 180);
     cursor: pointer;
 }
 
